@@ -1,0 +1,197 @@
+img {
+  width: 100%;
+}
+
+*{ 
+  font-family: Roboto;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Nav Section */
+
+.nav-section, .header-section, .footer{
+  background-color: #1F2937;
+  color: white;
+}
+
+.nav-section {
+  padding-top: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 440px;
+}
+
+.logo{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  color: #E5E7EB;
+}
+
+.link:hover{
+  border-bottom: 1px white solid;
+  cursor: pointer;
+
+}
+
+/* Header Section */
+
+.header-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.title{
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.header-content {
+  width: 400px;
+  margin-bottom: 90px;
+}
+
+.info{
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 25px;
+  color: #E5E7EB;
+}
+
+.header-image{
+  width: 500px;
+  height: auto;
+  margin-left: 110px;
+  margin-bottom: 70px;
+}
+
+.signup-button {
+  padding: 8px 25px;
+  background-color: #3882F6;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Image Section */
+
+.image-section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+}
+
+.image-title{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.image-container{
+  display: flex;
+  gap: 36px;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;  
+  margin-top: 35px;
+  font-size: 18px;
+}
+
+.item img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+/* Quote Section */
+
+.quote-section{
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+.quote{
+  font-size: 40px;
+  font-style: italic;
+  width: 1000px;
+}
+
+.quote-author{
+  font-size: 24px;
+  font-style: bold;
+  margin-left: 710px;
+}
+
+/* Ad Section */
+.modal-container {
+  height: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-box {
+  background-color: #3882F6;
+  display: flex;
+  gap: 200px;
+  padding: 45px 140px;
+  color: white;
+  border-radius: 10px;
+}
+
+.modal-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.modal-caption{
+  color: #E5E7EB;
+  font-size: 15px;
+}
+
+.signup-button-two{
+  border-color: white;
+  border-width: 1.8px;  
+  background-color: #3882F6;
+  color: white;
+  padding: 0 30px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Footer Section */
+.footer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.signup-button, .signup-button-two:hover {
+  cursor: pointer;
+}
